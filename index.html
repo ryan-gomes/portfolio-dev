@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icons/android-chrome-512x512.png" />
     <script defer src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,7 @@
 <body>
     <header>
         <nav class="nav">
-            <a class="logo" href="/">Ryan Gomes</a>
+            <a class="logo" href="#inicio">Ryan Gomes</a>
             <div class="menu-mobile">
                 <span></span>
                 <span></span>
@@ -33,7 +35,7 @@
     </header>
 
     <main id="inicio" class="cabecalho">
-        <img src="./img/ryan-1.jpg" alt="Foto de Ryan Gomes" class="foto-perfil">
+        <img src="./img/perfil/ryan-2.JPG" alt="Foto de Ryan Gomes" class="foto-perfil">
         <h1 class="cabecalho-titulo">Ryan Gomes</h1>
         <p class="cabecalho-subtitulo">Desenvolvedor Front End</p>
     </main>
@@ -52,31 +54,40 @@
         <h2 class="skills-titulo">Skills / Stacks</h2>
         <div class="skills-lista">
             <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"
-                    class="skill-icone">
+                <i class="devicon-html5-plain colored skill-icone"></i>
                 <p>HTML5</p>
             </div>
             <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"
-                    class="skill-icone">
+                <i class="devicon-css3-plain colored skill-icone"></i>
                 <p>CSS3</p>
             </div>
             <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                    alt="JavaScript" class="skill-icone">
+                <i class="devicon-javascript-plain colored skill-icone"></i>
                 <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-azuresqldatabase-plain colored skill-icone"></i>
+                <p>SQL</p>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-python-plain colored skill-icone"></i>
+                <p>Python</p>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-java-plain colored skill-icone"></i>
+                <p>Java</p>
             </div>
         </div>
     </section>
+
 
     <section class="projetos" id="projetos">
         <h2 class="projetos-titulo">Meus Projetos</h2>
         <div class="projetos-lista">
             <div class="projeto-item">
-                <img src="./img/projeto-1.jpg" alt="Portfolio Programador" class="projeto-imagem">
+                <img src="./img/projetos/projeto-1.jpg" alt="Portfolio Programador" class="projeto-imagem">
                 <h3 class="nome-projeto">Portfolio Programador</h3>
-                <p>Um site de portfólio moderno, feito para demonstrar habilidades em HTML, CSS e JS, com design
-                    responsivo e interações simples.</p>
+                <p>Um site de portfólio moderno, feito para demonstrar habilidades em HTML, CSS e JS, com design responsivo e interações simples.</p>
             </div>
         </div>
     </section>
@@ -90,6 +101,7 @@
             <button type="submit" class="contato-botao">Enviar</button>
             <p class="form-mensagem"></p> <!-- Mensagem de feedback -->
         </form>
+    </section>
 
 </body>
 
